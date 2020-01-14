@@ -38,14 +38,3 @@ rl.question('What\'s your name? Nicknames are also acceptable ', (answer) => {
     });
   });
 });
-
-rl.question("What's an activity you like doing? ", (answer) => {
-  
-  console.log(`Thank you for your valuable feedback: ${answer}`);
-  totalAnswer += `${answer} `;
-  rl.close();
-});
-
-
-
-console.log(totalAnswer);
